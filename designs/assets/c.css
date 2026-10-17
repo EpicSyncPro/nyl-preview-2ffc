@@ -1,0 +1,9 @@
+/* (c) 2026. Preview c286b32e551cd066. Not licensed. */
+
+.dir-c h1 { font-size: clamp(2rem, 3.8vw, 3rem); }
+.dir-c .hero { padding: 56px 0 64px; border-bottom: 1px solid var(--mist); }
+.dir-c .hero-grid { display: grid; grid-template-columns: 6fr 5fr; gap: 56px; align-items: center; }
+.dir-c .contact-panel { background: var(--mist); border-color: var(--mist); }
+.dir-c .area-index a { font-family: var(--text); font-size: 1.05rem; font-weight: 600; }
+@media (max-width: 900px) { .dir-c .hero-grid { grid-template-columns: 1fr; gap: 28px; } }
+@media (max-width: 720px) { .dir-c .hero { padding: 36px 0 40px; } }

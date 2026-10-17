@@ -1,0 +1,11 @@
+/* (c) 2026. Preview c286b32e551cd066. Not licensed. */
+.chooser main { padding: 56px var(--gut) 72px; }
+.ch-head img { width: 240px; margin-bottom: 32px; }
+.opts { list-style: none; margin: 32px 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.opt { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 26px; border: 1px solid var(--mist); border-radius: var(--r); text-decoration: none; color: var(--ink); background: var(--white); }
+.opt:hover { border-color: var(--navy); }
+.opt strong { font: 400 1.6rem/1.2 var(--display); }
+.opt .line { color: var(--slate); }
+.opt .arr { margin-top: auto; color: var(--navy-deep); }
+.chooser .draft { color: var(--slate); }
+@media (max-width: 820px) { .opts { grid-template-columns: 1fr; } }

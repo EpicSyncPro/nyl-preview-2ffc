@@ -1,0 +1,19 @@
+/* (c) 2026. Preview c286b32e551cd066. Not licensed. */
+
+.dir-a .hero { background: var(--cream); }
+.dir-a .hero-grid { display: grid; grid-template-columns: 5fr 6fr; gap: 0; padding: 0; max-width: none; }
+.dir-a .hero-panel { padding: 88px 56px 88px max(var(--gut), calc((100vw - var(--wrap)) / 2 + var(--gut))); align-self: center; }
+.dir-a .hero h1 { font-size: clamp(2.5rem, 4.4vw, 3.75rem); }
+.dir-a .hero .lede { color: var(--ink); }
+.dir-a .hero-photo { margin: 0; min-height: 520px; }
+.dir-a .hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+.dir-a .btn-ghost { background: var(--cream); }
+.dir-a .callbar .btn-ghost { background: var(--white); }
+.dir-a .page-hero { background: var(--cream); border-bottom: 1px solid var(--gold); }
+.dir-a .page-hero .lede { color: var(--ink); }
+@media (max-width: 720px) {
+  .dir-a .hero-grid { grid-template-columns: 1fr; }
+  .dir-a .hero-panel { padding: 40px var(--gut) 32px; }
+  .dir-a .hero-photo { min-height: 0; }
+  .dir-a .hero-photo img { height: 220px; }
+}
